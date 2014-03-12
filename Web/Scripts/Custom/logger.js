@@ -2,7 +2,7 @@
     throw new Error("global object 'app' is required");
 }
 
-app.logger = (function (app) {
+window.app.logger = (function (app) {
 
 	var appenders = [],
 
